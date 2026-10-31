@@ -22,7 +22,7 @@ a robust framework for supporting climate resilience, agricultural decision-maki
 forecasting. 
 
 # Code
- The code in this study was executed in Python programming language, and can be found in this repository.
+ The code in this study was executed in Python programming language in this repository and covered the following:
 
 * Feature extraction
 * Train-test split
@@ -34,5 +34,5 @@ forecasting.
 * Transformer Model
 * Moran’s I (Spatial Analysis)
 * Diebold-Mariano test
-* Evaluation Metrics: MAE, RMSE, R-squared
+* Evaluation Metrics: MAE, RMSE, R-squared.
 
