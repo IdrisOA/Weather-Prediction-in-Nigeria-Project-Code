@@ -1,3 +1,25 @@
-# Weather-Prediction-in-Nigeria-Paper-Code
-This is my MS Statistics/Computational statistics thesis titled: Comparative Evaluation of Machine Learning and Deep Learning Models
-for Prediction in Nigeria using Spatial Analysis. The code was executed in Python programming language.
+## Abstract
+Accurate prediction of meteorological variables is essential for agricultural planning, disaster risk reduction, water 
+resource management, and climate adaptation in Nigeria, where substantial climatic variability exists across diverse 
+ecological zones. This study presents a comparative evaluation of machine learning, deep learning, and spatial 
+analysis techniques for predicting key meteorological variables, namely rainfall, temperature, and relative 
+humidity, using a nationwide daily dataset comprising 270,285 observations collected across the 36 states of Nigeria 
+between 2005 and 2024. Following comprehensive data pre-processing, spatial feature engineering was performed 
+by incorporating geographic coordinates and spatial lag variables. Global Moran's I statistics confirmed significant 
+positive spatial autocorrelation for rainfall, temperature, and humidity, providing empirical justification for 
+integrating spatial information into the predictive models. Five regression models: Random Forest, Extreme 
+Gradient Boosting (XGBoost), Long Short-Term Memory (LSTM), Bidirectional Long Short-Term Memory (Bi
+LSTM), and Transformer were developed and evaluated using a chronological train-test split. Model performance 
+was assessed using Mean Absolute Error (MAE), Root Mean Square Error (RMSE), the coefficient of determination 
+(R²), confidence intervals, and statistical comparison of prediction errors using the Diebold-Mariano test. An 
+ablation study was further conducted to quantify the contribution of spatial features. Results demonstrated that the 
+Transformer model achieved the best predictive performance (MAE = 1.87 mm, RMSE = 3.98 mm, R² = 0.78), 
+representing approximately a 19% improvement in RMSE over the best-performing machine learning model 
+(XGBoost). The ablation study showed that incorporating spatial features reduced RMSE by between 3.8% and 
+8.4% across all models, with the Transformer exhibiting the greatest improvement. The findings demonstrate that 
+combining deep learning with spatial analysis substantially enhances weather prediction across Nigeria and provides 
+a robust framework for supporting climate resilience, agricultural decision-making, and operational weather 
+forecasting. 
+
+# Code
+ The code in this study was executed in Python programming language, and can be found in this repository.
