@@ -23,3 +23,16 @@ forecasting.
 
 # Code
  The code in this study was executed in Python programming language, and can be found in this repository.
+
+* Feature extraction
+* Train-test split
+* Normalization
+* Random Forest Model
+* XGBoost Model
+* LSTM Model
+* Bi-LSTM Model
+* Transformer Model
+* Moran’s I (Spatial Analysis)
+* Diebold-Mariano test
+* Evaluation Metrics: MAE, RMSE, R-squared
+
